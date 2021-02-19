@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-size: 20px;
+}
+*::selection {
+  color: #333333;
+  background: #fff;
+}
+body {
+  background: #1c1c1c;
+}
+#logo {
+  position: relative;
+  height: 35vh;
+  width: 35vw;
+  margin-left: 30vw;
+}
+#box {
+  position: absolute;
+  margin-left: 35%;
+  top: 250px;
+}
+#box input {
+  padding: 7px;
+  width: 350px;
+  text-align: center;
+  background: #333333;
+  border: none;
+  outline: none;
+  box-shadow: 2px 2px 2px #131313;
+  color: #fff;
+  position: absolute;
+}
+#box button {
+  padding: 5px;
+  border: none;
+  outline: none;
+  background: none;
+  position: relative;
+  z-index: 5;
+  margin-left: 300px;
+  margin-top: 2px;
+  cursor: pointer;
+}
+#box button i {
+  font-size: 22px;
+  color: #92928c;
+}
+#tag {
+  color: #fff;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#tag a {
+  color: #fff;
+  font-size: 18px;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  margin-bottom: 5px;
+  text-align: center;
+  background: #333333;
+  color: #fff;
+  font-weight: normal;
+}
+footer a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: none;
+  cursor: pointer;
+}
+footer a:hover {
+  text-decoration: underline;
+  transition: all 0.3s ease;
+}
